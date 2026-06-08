@@ -50,10 +50,3 @@ Through the end-to-end realization of this digital block, I have mastered severa
 
 ---
 
-## 🎯 What Recruiters/Design Managers Should Look For
-
-For frontend VLSI, RTL Design, and Design Verification (DV) roles, this repository highlights clear industry-entry readiness metrics:
-
-1. **Synthesis-Safe Subsets:** The Verilog implementation completely avoids non-synthesizable code constraints within the design modules, ensuring it safely passes ASIC/FPGA hardware translation boundaries.
-2. **Clean RTL Schematics:** The clean layout paths visible in the Vivado RTL analysis views prove that the underlying code was written to explicitly guide the synthesis engine, avoiding messy latch generation or loose wires.
-3. **Structured Repository Layout:** Separation of code directories (`/RTL` for logic files, `/SIM` for testing benches, and `/DOCS` for visual architecture verification) mirrors industry project environment configurations.
